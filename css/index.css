@@ -1,0 +1,167 @@
+/* Author : Bineeth
+   All Rights Reserved © 2017
+ */
+/*Imports*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*Overides*/
+.fa-bell{
+    font-size: medium !important;
+}
+.container{
+    margin-right: 10em;
+    max-width: 80%;
+}
+/*Navbar*/
+#flipkart-navbar{
+    background-color: #2874f0;
+    font-family:'Roboto' , sans-serif ;
+    /*padding-bottom: 3em;*/
+}
+
+.row{
+    padding: 2px;
+}
+/*Row 1*/
+.row-1 ul{
+    width: 100%;
+}
+.pull-right{
+    text-align: right;
+}
+.upper-links{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 11px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.links{
+    color: rgba(240,240,240 ,1);
+}
+.links:hover{
+    color: rgba(240,240,240,1);
+    text-decoration: none;
+}
+.dropdown{
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 11px;
+
+}
+.dropdown .dropdown-menu{
+    position: absolute;
+    top: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.dropdown:hover {
+    background-color: white;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.dropdown:hover a{
+    color:black;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    min-width: 7em;
+    left:-36%;
+}
+.dropdown-menu li{
+    border-bottom: solid gainsboro 1px;
+    padding:0.15em;
+}
+.dropdown-menu li:hover{
+    background-color: gainsboro;
+}
+.dropdown:hover .dropdown-menu li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 11px;
+    padding: 0 1em 0 0.5em;
+}
+/*Row 2*/
+.logo img{
+    width:9.5em;
+    padding-right: 0.5em;
+}
+#search-bar{
+    outline: none;
+    border: none;
+    width: 120vh;
+    padding: 0.5em 0 0.5em 1em;
+    border-radius: 2px 0 0 2px;
+    box-shadow: 1px 1px 8px 0 #3331bdb8;
+}
+.search button{
+    border: none;
+    outline: none;
+    margin-left: -4px;
+    padding: 0.5em 2em;
+    background-color: rgb(255, 225, 27);
+}
+.cart{
+    margin: 0 0 0 0.7em;
+    color: white;
+}
+.cart button{
+    border: none;
+    outline: none;
+    height: 100%;
+    background-color: #0f00fb52;
+    box-shadow: 1px 1px 3px darkblue;
+    padding: 0 1.5em;
+    color: white;
+}
+.cart button span{
+    background-color: #205ec3;
+    padding:0 5px;
+    border-radius: 3px;
+}
+/*Row 3*/
+.row-3 ul{
+    padding-top: 1em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.15em;
+}
+.row-3 ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+.row-3 ul li a{
+    text-decoration: none;
+    color:rgba(240,240,240 ,1) ;
+    font-weight: 600;
+}
+.row-3 ul li a:after{
+    content: "\f107";
+    font-family: "FontAwesome", serif;
+}
+.row-3 ul li a:hover:after{
+    content: "\f106";
+    font-family: "FontAwesome", serif;
+}
+.row-3 ul li:last-child a:after{
+    content: "";
+}
+.row-3 ul li a:hover{
+    color: rgb(255, 225, 27);
+}
+.row-3 ul li:last-child a{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 2px;
+}
+
+/*Navbar ends*/
